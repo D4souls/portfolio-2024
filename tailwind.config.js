@@ -4,6 +4,13 @@ export default {
 	content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
 	theme: {
 		extend: {
+			fontFamily: {
+				kalamLight: ['Kalam-Light', 'sans-serif'],
+				kalamRegular: ['Kalam-Regular', 'sans-serif'],
+				kalamBold: ['Kalam-Bold', 'sans-serif'],
+				kalamVariable: ['Kalam-Variable', 'sans-serif'],
+				onest: ['Onest', 'sans-serif'],
+			},
 			colors: {
 				'color-1': '#F06543', // color naranja
 				'color-2': '#E8E9EB', // color gris claro
